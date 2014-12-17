@@ -20,11 +20,11 @@ Au bout d'1/4 on a fait emerger avec le groupe qu'avec un code aussi hostile et 
 * On se rends compte assez vite que cela n'est pas vraiment suffisant il est difficile de deviner les arguments en entrées comme cela. On se sert malgré tout de la structure d'un test unitaire pour faire nos premiers pas et avoir un bout de code qui tourne, dans un test.
 * En analysant le code on se rends compte que le programme lit une certaine quantité d'entier. On essaye donc de les lui refiler et on arrive assez vite à quelques cas de tests qui couvrent les scenarios suivants: cas passant, cas impossbile, plusieurs cas (passant et/ou impossible). 
 * On peut commencer a refactorer doucement le code en s'attaquant dans l'ordre:
-** A ce que l'IDE nous indique comme code mort
-** Travail en inlinant et en supprimant les variables inutiles
-** Travail sur la double boucle imbriqué et son test 'if' juste en dessous
-** Renommage des variables en des concepts plus parlant
-** Extraire les concepts en classes/structures pour répartir les comportements communs au même endroit et ajout de tests unitaires sur ces classes
+ * A ce que l'IDE nous indique comme code mort
+ * Travail en inlinant et en supprimant les variables inutiles
+ * Travail sur la double boucle imbriqué et son test 'if' juste en dessous
+ * Renommage des variables en des concepts plus parlant
+ * Extraire les concepts en classes/structures pour répartir les comportements communs au même endroit et ajout de tests unitaires sur ces classes
 
 Vous trouverez dans le repertoire [code](https://github.com/AxaWebCenter/Dojo-13/tree/master/code) des essais dans ce sens
 
