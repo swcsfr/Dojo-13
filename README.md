@@ -26,7 +26,7 @@ Au bout d'1/4 on a fait emerger avec le groupe qu'avec un code aussi hostile et 
 ** Renommage des variables en des concepts plus parlant
 ** Extraire les concepts en classes/structures pour répartir les comportements communs au même endroit et ajout de tests unitaires sur ces classes
 
-Vous trouverez dans le repertoire code des essais dans ce sens
+Vous trouverez dans le repertoire [code](https://github.com/AxaWebCenter/Dojo-13/tree/master/code) des essais dans ce sens
 
 A retenir sur ce kata :
 * Dans le cadre d'un code hostile sans tests, des tests de bout en bout (end to end, boite noire etc...) nous permettent de découvrir le domaine et de comprendre le sujet. (Type technique Golden Master)
